@@ -13,9 +13,7 @@ int main()
 
     int i, n, k; std::cin >> n >> k;
 
-    // for (i = 1; i <= 100000; i++) {
-    //     if (gcd(i, i + 1) > 1) std::cout << i << std::endl;
-    // }
+    // gcd(n, n + 1) = 1 (n >= 1)
 
     if (n == k) std::cout << "-1\n";
     else {
