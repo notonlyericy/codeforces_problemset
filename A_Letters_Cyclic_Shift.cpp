@@ -9,6 +9,7 @@ int main()
     bool isSmallest = false;
     int i;
     for (i = 0; i < s.size() && s[i] == 'a'; i++);
+    if (i == s.size()) s[i - 1] = 'z';
     for (; i < s.size() && s[i] != 'a'; i++) s[i] = s[i] - 1;
 
     std::cout << s << "\n"; 
