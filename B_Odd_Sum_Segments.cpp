@@ -27,7 +27,7 @@ int main()
             while (i < k - 1) {
                 std::cout << odds[i++]<< " "; 
             }
-            std::cout << odds[no - 1] << "\n";
+            std::cout << std::max(odds[no - 1], n) << "\n";
         }
     }
 
